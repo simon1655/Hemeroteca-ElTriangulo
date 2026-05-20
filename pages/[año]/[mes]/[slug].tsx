@@ -75,14 +75,14 @@ export default function Noticia({ noticia }: { noticia: Noticia }) {
       </div>
 
       {/* FOOTER */}
-      <footer style={{ background: '#111', color: '#fff', padding: '28px 20px' }}>
+      <footer style={{ background: '#111', color: '#ffb22a', padding: '28px 20px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' as const, gap: 16 }}>
           <div>
             <img src="/logo.png" alt="El Triángulo" style={{ height: 60, width: 'auto' }} />
             <div style={{ fontSize: 12, color: '#888', marginTop: 4 }}>Hemeroteca histórica · 2010–2025</div>
           </div>
           <div style={{ fontSize: 13, color: '#888', textAlign: 'right' as const }}>
-            <a href="https://www.eltriangulo.es" style={{ color: naranja, fontWeight: 'bold' }}>Ir al sitio actual →</a>
+            <a href="https://www.eltriangulo.es" style={{ color: #ffffff, fontWeight: 'bold' }}>Ir al sitio actual →</a>
             <div style={{ marginTop: 6 }}>© El Triángulo. Todos los derechos reservados.</div>
           </div>
         </div>
