@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.noticia-contenido * {
+  font-family: 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.noticia-contenido p {
+  font-size: 17px !important;
+  line-height: 1.85 !important;
+  margin-bottom: 16px !important;
+}
+
+.noticia-contenido img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 20px auto !important;
+  border-radius: 4px !important;
+}
+.noticia-contenido u,
+.noticia-contenido span {
+  text-decoration: none !important;
+}
+.noticia-contenido * {
+  text-decoration: none !important;
+}
+
+.noticia-contenido a {
+  text-decoration: underline !important;
+  color: #1a3a6b !important;
+}
