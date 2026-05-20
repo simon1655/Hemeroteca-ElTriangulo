@@ -227,7 +227,7 @@ export default function Home({ noticias, total }: { noticias: Noticia[], total: 
             <div style={{ fontSize: 12, color: '#ffffff', marginTop: 6 }}>Hemeroteca histórica · 2010–2025</div>
           </div>
           <div style={{ fontSize: 13, color: '#ffffff', textAlign: 'right' as const }}>
-            <a href="https://www.eltriangulo.es" style={{ color: naranja, fontWeight: 700, textDecoration: 'none' }}>Ir al sitio actual →</a>
+            <a href="https://www.eltriangulo.es" style={{ color: #ffffff, fontWeight: 700, textDecoration: 'none' }}>Ir al sitio actual →</a>
             <div style={{ marginTop: 6 }}>© El Triángulo. Todos los derechos reservados.</div>
           </div>
         </div>
