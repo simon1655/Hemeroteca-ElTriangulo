@@ -59,7 +59,7 @@ export default function Home({ noticias, total }: { noticias: Noticia[], total: 
     return matchBusqueda && matchCategoria && matchAno;
   });
 
-  const POR_PAGINA = 10;
+  const POR_PAGINA = 18;
   const totalPaginas = Math.ceil(filtradas.length / POR_PAGINA);
   const noticiasPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
 
