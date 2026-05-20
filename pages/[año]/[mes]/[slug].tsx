@@ -75,7 +75,7 @@ export default function Noticia({ noticia }: { noticia: Noticia }) {
       </div>
 
       {/* FOOTER */}
-      <footer style={{ background: '#111', color: '#ffb22a', padding: '28px 20px' }}>
+      <footer style={{ background: '#ffb22a', color: '#ffb22a', padding: '28px 20px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' as const, gap: 16 }}>
           <div>
             <img src="/logo.png" alt="El Triángulo" style={{ height: 60, width: 'auto' }} />
